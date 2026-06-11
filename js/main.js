@@ -4,13 +4,13 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  initArticles();
-  initCategoryFilter();
-  initThemeToggle();
-  initMobileMenu();
-  initBackToTop();
-  initScrollEffects();
-  initImageLazyLoad();
+  try { initArticles(); } catch(e) { console.error(e); }
+  try { initCategoryFilter(); } catch(e) { console.error(e); }
+  try { initThemeToggle(); } catch(e) { console.error(e); }
+  try { initMobileMenu(); } catch(e) { console.error(e); }
+  try { initBackToTop(); } catch(e) { console.error(e); }
+  try { initScrollEffects(); } catch(e) { console.error(e); }
+  try { initImageLazyLoad(); } catch(e) { console.error(e); }
 });
 
 /* ============================================

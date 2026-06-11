@@ -134,11 +134,11 @@ svg, path, circle, rect {
 }
 
 /* --- 图片加载渐入 --- */
-img {
+article img {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
-img.loaded {
+article img.loaded {
   opacity: 1;
 }
 
